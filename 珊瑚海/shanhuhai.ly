@@ -148,7 +148,7 @@ jaychou = {
     r1
     r4 r8 ees bes8 c'16 c'~ c'4
     r8 c' c' c' c' bes aes bes
-    bes8 c'16 c'~ c'4 r2
+    bes8 des'16 c'~ c'4 r2
     r4 aes8 bes c' ees'4.
     r4 aes8 bes c'\staccato aes8 ees bes
     c'4. des'8 ees'4. c'8
