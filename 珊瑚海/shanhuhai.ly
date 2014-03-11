@@ -9,6 +9,7 @@
 
 
 lara = {
+    \override Score.RehearsalMark #'self-alignment-X = #LEFT
     \clef "treble"
     \relative c''
     \key aes \major
@@ -27,6 +28,7 @@ lara = {
 
     % CHORUS
     % first half
+    \mark "(Chorus)"
     r4 aes'   aes'8 bes' bes' aes'
     aes'8. g'16~ g'4 g'8 aes' bes' des''
     des''8 c''~ c''4 c''8 bes' aes' bes'
@@ -61,6 +63,7 @@ lara = {
 
     % CHORUS
     % first half
+    \mark "(Chorus)"
     r4 aes'   aes'8 bes' bes' aes'
     aes'8. g'16~ g'4 g'8 aes' bes' des''
     des''8 c''~ c''4 c''8 bes' aes' bes'
@@ -104,7 +107,7 @@ jaychou = {
     r8 c' c' c' c' bes aes bes
     bes8 c'16 c'~ c'4 r4 c'8 bes
     bes8. c'16~ c'4 r4 c'8 bes
-    bes8. c'16~ c'4 r4 ees8 aes
+    bes8. c'16~ c'4 r4 ees8 bes
     c'4. des'8 ees'4. c'8
     des'2.
 
@@ -147,7 +150,7 @@ jaychou = {
     r8 c' c' c' c' bes aes bes
     bes8 c'16 c'~ c'4 r2
     r4 aes8 bes c' ees'4.
-    r4 aes8 bes c'\staccato aes8 ees aes
+    r4 aes8 bes c'\staccato aes8 ees bes
     c'4. des'8 ees'4. c'8
     des'2.
 
