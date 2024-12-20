@@ -18,7 +18,7 @@ RH = \relative c' {
   % intro solo
   af4 af' g af
   g4 f ef f
-  ef4. af,8 df4 c8 bf
+  ef4. bf8 df4 c8 bf
   c2 af4 bf
   c4 df c df
   ef4 af,2 f8 af
@@ -51,6 +51,55 @@ RH = \relative c' {
 
   \bar "||"
 
+  % verse
+  af,,,4 af' g af
+  g4 f ef f
+  ef4. bf8 df4 c8 bf
+  c2 af4 bf
+  c4 df c df
+  ef4 af,2 f8 af
+  df4 c df ef
+  c4. bf8 bf2
+
+  af4 af' g af
+  g4 f ef f
+  e4 f g c,
+  af'2 g4 f
+  ef4 f8 af,4 f8 f af
+  df4 c8 bf4 af8 af4
+
+  R1
+
+  r4 af'4 g ef
+  ef4 f8 af,8~af4 c8 bf~
+  bf4. g8 g af bf f' 
+  ef4 bf df c8 bf
+  bf8 af~af f f g af c
+  df4 c df ef8 c~
+  c8 bf4 af f8 ef'8 c~
+  c2. f4
+  ef2 af4 g
+  g4 f r f
+  bf4 g f g
+  f4 c c bf'
+  a2 f4 g
+  af4. f8 g af~af f
+  g8 af f g af f g c
+  bf1
+  R1
+
+  % chorus
+  <c c'>2. <af af'>4 <df df'> <c c'> <bf bf'> <c c'>
+  <c c'>2. <af af'>4 <df df'> <c c'> <bf bf'> <c c'>
+  <c c'>2. <af af'>4 <c c'> <bf bf'> <c c'> <df df'> <ef ef'>2 <c c'> <bf bf'> <af af'>
+  <f f'>4  <c' c'> <c c'> <df df'>8 <c c'>8~<c c'> <bf bf'>4 <af af'> <e e'>4. <ef ef'> <bf' bf'> <g g'>8 <g g'>~<g g'> <af af'> <af af'>4
+  <af af'>4 <g g'> <f f'>2 <g g'> <af af'> <bf bf'>4 <bf bf'> <c c'>2. <bf bf'>8 <c c'> <df df'>2 <ef ef'>
+  <c c'>2. <af af'>4 <df df'> <c c'> <bf bf'> <c c'>
+  <c c'>2. <af af'>4 <df df'> <c c'> <bf bf'> <c c'>
+  <c c'>2. <af af'>4 <c c'> <bf bf'> <c c'> <df df'> <ef ef'>2 <c c'> <bf bf'> <af af'>
+  f4 c' bf r8 bf~bf af bf c bf af g f ef4 bf' g bf8 bf~bf af bf c bf af g ef
+  f4 g af df8 c~c af af8 bf4 af
+  
 }
 
 LH = \relative c, {
@@ -76,6 +125,29 @@ LH = \relative c, {
     af,,1:3.5.8
 
     \bar "||"
+
+    % verse
+    af,,1 bf,,:3-.6 ef,2/bf c, f,1:m/c
+    df,1 c,:m bf,:m/df af,:7/c
+    df,1 ef, c, f,:m/c df, ef, af,,:3.5.8~af,,:3.5.8
+    df,1 ef, c,:m f,:m/c bf,,:m c, f,:m/c af,:7/c
+    df,1 ef, c,:m f,/c df, df, ef,
+
+    R1
+
+    % chorus
+    af,,1:3.5.8~af,,1:3.5.8
+    c,1:3.5.8~c,:3.5.8
+    f,1:m/c~f,:m/c
+    af,1:maj7/c~af,1:maj7/c
+    df,1 ef, c,:m f,:m/c df,~df, ef,~ef,
+
+    af,,1:3.5.8~af,,1:3.5.8
+    c,1:3.5.8~c,:3.5.8
+    f,1:m/c~f,:m/c
+    af,1:maj7/c~af,1:maj7/c
+    df,1 ef, c,:m f,:m/c df, ef,
+    af,,1:3.5.8
   }
 }
 
